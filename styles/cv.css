@@ -95,7 +95,7 @@
 	
 	header hgroup h2 {
 		color:#cecece;
-		font-style: italic;
+		/* font-style: italic; */
 		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 	}
 
