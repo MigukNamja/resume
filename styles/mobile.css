@@ -160,7 +160,7 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 		overflow: hidden;
 	}
 	
-	.apropos, .competences, .experiences, .formations, .loisirs, .contact {
+	.apropos, .competences, .experiences, .formations, .loisirs, .contact, .selected-works {
 		margin-top: 63px;
 	}
 	
@@ -182,7 +182,7 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 	
 	section[role=main] h3:before {
-		background-color: #33a4c9;
+		background-color: #33c965;
 		border-radius: 25px;
 	}
 	
@@ -214,6 +214,10 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 			background-position: 11px -194px;
 		}
 	
+		section[role=main] .selected-works h3:after {
+			background-position: 11px -128px;
+		}
+
 	section[role=main] h4 {
 		margin-bottom: 0px;
 	}

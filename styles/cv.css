@@ -100,6 +100,25 @@
 	}
 
 /************
+/* List Items
+************/
+span figure {
+	border: 3px solid #999;
+	border-radius: 0px 28px 28px 0px;
+	float: left;
+	height: 56px;
+	width: 56px;
+}
+
+span figure img {
+	/* border: 3px solid #aaa; */
+	border-radius: 0px 25px 25px 0px;
+	height: 50px;
+	position: relative;
+	width: 50px;
+}
+
+/************
 /* Contact
 ************/
 	::-webkit-input-placeholder  { color:#fff; }
@@ -263,6 +282,9 @@
 			background-position: 11px -194px;
 		}
 	
+		section[role=main] .selected-works h3:after {
+			background-position: 11px -128px;
+		}
 	
 	.experiences ul, .formations ul {
 		margin-left: 60px;
@@ -333,6 +355,12 @@
 		z-index: 1;
 	}
 	
+	.selected-works-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+	}
 	
 	/***********
 	/* Pictos
