@@ -99,9 +99,9 @@
 		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 	}
 
-/************
-/* List Items
-************/
+/*********************
+/* Spans as list items
+**********************/
 span figure {
 	border: 3px solid #999;
 	border-radius: 0px 28px 28px 0px;
@@ -365,10 +365,20 @@ span figure img {
 	/***********
 	/* Pictos
 	***********/
-	.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype {
-		background: url('../img/pictos-gris.png') no-repeat;
+	.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype, .resume-link {
+		/* background: url('../img/pictos-gris.png') no-repeat; */
 		padding-left: 25px;
 		margin: 0 10px 1px 10px;
+		font-size: 18px;
+		/* color: #2735b1; */
+	}
+
+	.resume-link {
+		/* background-color: #108D3A;		 */
+		font-size: 150%;
+		padding-left: 25px;
+		margin: 0 10px 1px 10px;		
+		color: rgb(39, 53, 177);
 	}
 	
 	.lieu {
