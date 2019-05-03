@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 header {
@@ -10,12 +10,20 @@ header {
 header hgroup {
 	width: 80%;
 	float: left;
-	padding: 35px 0;
+	padding: 15px 0;
 }
 
-header figure {
+/* header figure {
 	width: 20%;
 	float: right;
+} */
+
+header figure {
+	display: none;
+}
+
+header figure img {
+	display: none;
 }
 
 .contactform {
@@ -34,8 +42,26 @@ header figure {
 
 h3 {
 	border-bottom: 1px solid #ccc;
-	padding-bottom: 10px;
-	margin:30px 0 10px 0;
+	padding-bottom: 1px;
+	margin: 1px 0px 0px 0px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h4 {
+	padding-bottom: 1px;
+	margin: 1px 0px 0px 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+h4 strong {
+	color: #147393;
+	font-weight: normal;
+}
+
+li span {
+	margin-bottom: 0px;
 }
 
 .competences li {
@@ -45,16 +71,88 @@ h3 {
 	margin-right: 10px;	
 }
 
-.contact ul li {
-	list-style: square;
-	margin-left: 40px;
-}
-
 .contact ul li.form {
 	display: none;
 }
 
 p {
-  orphans: 3; /* pas de ligne seule en bas */
-  widows: 3; /* pas de ligne seule en haut */
+  orphans: 3;
+  widows: 3;
+}
+
+.lieu {
+	font-weight: 500;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.dates {
+	font-weight: 200;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.experiences p {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.loisirs p {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.paragraph {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.selected-works {
+	display: none;
+}
+
+/* .selected-works-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+} */
+
+span figure {
+	border: 3px solid #999;
+	border-radius: 0px 28px 28px 0px;
+	float: left;
+	height: 56px;
+	width: 56px;
+}
+
+span figure img {
+	/* border: 3px solid #aaa; */
+	border-radius: 0px 25px 25px 0px;
+	height: 50px;
+	position: relative;
+	width: 50px;
+}
+
+.mail, .site, .phone {
+	list-style-type: circle;
+	margin: 0 10px 1px 10px;
+}
+
+.phone {
+	background-position: 0 -40px;
+}
+
+.mail {
+	background-position: 0 -58px;
+}
+
+.site {
+	background-position: 0 -80px;
+}
+
+.resume-link {
+	display: none
 }
