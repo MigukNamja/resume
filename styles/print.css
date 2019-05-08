@@ -64,7 +64,7 @@ li span {
 	margin-bottom: 0px;
 }
 
-.competences li {
+.competencies li {
 	display:inline-block;
 	border-right: 1px solid #ccc;
 	padding-right: 10px;
@@ -80,7 +80,7 @@ p {
   widows: 3;
 }
 
-.lieu {
+.place {
 	font-weight: 500;
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -99,7 +99,7 @@ p {
 	margin-top: 0px;
 }
 
-.loisirs p {
+.hobbies p {
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
